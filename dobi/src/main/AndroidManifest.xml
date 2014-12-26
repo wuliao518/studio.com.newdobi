@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.dobi"
     android:versionCode="14"
-    android:versionName="2.3.1" >
+    android:versionName="2.3.1">
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
     <!-- 往sdcard中写入数据的权限 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -33,229 +33,195 @@
 
     <application
         android:name="com.dobi.exception.MyApplication"
-        tools:replace="android:icon, android:theme"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:theme">
         <!-- 友盟统计 -->
-        <meta-data            android:name="UMENG_APPKEY"            android:value="54057b6bfd98c5053a04cde3" >        </meta-data>
-        <meta-data            android:name="UMENG_CHANNEL"            android:value="mumayi" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54057b6bfd98c5053a04cde3"></meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="mumayi" />
         <!-- 友盟推送 -->
-        <meta-data            android:name="UMENG_MESSAGE_SECRET"            android:value="2119ac792523be4a5cf8e9f78329b55f" >        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="2119ac792523be4a5cf8e9f78329b55f"></meta-data>
 
         <activity
             android:name="com.dobi.ui.SplashActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
 
         </activity>
         <activity
             android:name="com.dobi.ui.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.SingleActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.HomeActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.MoreActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:launchMode="singleTop"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name="com.dobi.ui.ShowPicActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.GuideActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.ShowMoreActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name="com.dobi.ui.WelcomeActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.MaliangActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.DuxiActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.FamilyActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.ShopActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.LoginActivity"
-            android:label="@string/title_activity_login" >
-        </activity>
+            android:label="@string/title_activity_login"></activity>
         <activity
             android:name="com.dobi.ui.RegistActivity01"
-            android:label="@string/title_activity_regist_activity01" >
-        </activity>
+            android:label="@string/title_activity_regist_activity01"></activity>
         <activity
             android:name="com.dobi.ui.RegistActivity02"
-            android:label="@string/title_activity_regist_activity02" >
-        </activity>
+            android:label="@string/title_activity_regist_activity02"></activity>
         <activity
             android:name="com.dobi.ui.OrgActivity"
-            android:label="@string/title_activity_regist_activity03" >
+            android:label="@string/title_activity_regist_activity03">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.dobi.ui.AccountInfoActivity"
-            android:label="@string/title_activity_account_info" >
-        </activity>
+            android:label="@string/title_activity_account_info"></activity>
         <activity
             android:name="com.dobi.ui.NoticeInfoActivity"
-            android:label="@string/title_activity_notice_info" >
-        </activity>
+            android:label="@string/title_activity_notice_info"></activity>
         <activity
             android:name="com.dobi.ui.VideoInfoActivity"
-            android:label="@string/title_activity_video_info" >
-        </activity>
+            android:label="@string/title_activity_video_info"></activity>
         <activity
             android:name="com.dobi.ui.VideoPlayActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="landscape" >
-        </activity>
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name="com.dobi.ui.CartActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.UploadActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.OrderCommit"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.OrderListActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.AddressActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.AddActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.OpinionActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.AlbumActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.NoPayActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.PayActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.PromptActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.EditAddressActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.TestActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.ThreeHomeActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.JiangActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.ServerActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.PayMomentActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.UpdateActivity"
             android:label="@string/title_activity_video_info"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.ZoomLargeActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.dobi.ui.FlowActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
 
         <service android:name="com.dobi.db.MyPushIntentService" />
 
         <!-- 友盟推送 -->
         <receiver
             android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
-            android:exported="false" >
-        </receiver>
-        <receiver android:name="com.umeng.message.RegistrationReceiver" >
+            android:exported="false"></receiver>
+        <receiver android:name="com.umeng.message.RegistrationReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
@@ -265,7 +231,7 @@
                 <data android:scheme="package" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.umeng.message.UmengBroadcastReceiver" >
+        <receiver android:name="com.umeng.message.UmengBroadcastReceiver">
             <intent-filter>
                 <action android:name="org.agoo.android.intent.action.RECEIVE" />
             </intent-filter>
@@ -280,7 +246,7 @@
         <service
             android:name="com.umeng.message.UmengService"
             android:exported="true"
-            android:process=":umengService_v1" >
+            android:process=":umengService_v1">
             <intent-filter>
                 <action android:name="com.dobi.intent.action.START" />
             </intent-filter>
@@ -294,7 +260,7 @@
         <service
             android:name="org.android.agoo.service.ElectionService"
             android:exported="true"
-            android:process=":umengService_v1" >
+            android:process=":umengService_v1">
             <intent-filter>
                 <action android:name="org.agoo.android.intent.action.ELECTION_V2" />
             </intent-filter>
@@ -315,13 +281,12 @@
             android:launchMode="singleTask"
             android:noHistory="true"
             android:theme="@style/Theme.UMDialog"
-            android:windowSoftInputMode="stateVisible|adjustResize" >
-        </activity>
+            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
         <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
         <activity
             android:name="com.tencent.tauth.AuthActivity"
             android:launchMode="singleTask"
-            android:noHistory="true" >
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -334,8 +299,7 @@
         <activity
             android:name="com.tencent.connect.common.AssistActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
         <!-- ###################添加UmengAppkey###################### <meta-data android:name="UMENG_APPKEY" android:value="54057b6bfd98c5053a04cde3" > </meta-data> -->
         <!-- 微信和朋友圈的分享回调 -->
         <activity

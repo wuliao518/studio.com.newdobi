@@ -70,10 +70,7 @@ public class NetUtils {
 	 * 确认购买商品接口
 	 * @param uId
 	 * @param hdId
-	 * @param bdId
-	 * @param number
-	 * @param size
-	 */
+     */
 	public static void commitGoods(RequestParams params,AsyncHttpResponseHandler asy){
 		//String url="goods/confirmBuyGoods/uid/20/hd_id/1/bd_id/2/num/2/size_type/1?uid="+uId+"&hd_id="
 		//		+hdId+"&bd_id="+bdId+"&num="+num+"&size_type="+size;
