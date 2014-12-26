@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ece7e3"
+    tools:context=".MainActivity" >
+    
+    
+   <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/beijing_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:onClick="finishActivity"
+            android:src="@drawable/btn_back1" />
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="注意事项"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    
+
+     <WebView
+	        android:id="@+id/webView"
+	        android:layout_below="@id/title"
+	        android:background="#ece7e3"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:fadingEdge="none"
+	        android:scrollbars="none" />
+     
+     
+<!--     <ProgressBar android:id="@+id/progressBar"
+    			android:layout_marginTop="30dp"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_centerInParent="true"
+			       android:visibility="gone"/> -->
+
+</RelativeLayout>

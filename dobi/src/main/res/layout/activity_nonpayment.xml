@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/beijing_background">
+
+        <ImageView android:id="@+id/mImageview1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:onClick="finishActivity"
+            android:src="@drawable/btn_back1" />
+        
+        <!-- <ImageView android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="finishActivity"
+            android:padding="3dp"
+            android:layout_toRightOf="@id/mImageview1"
+            android:scaleType="centerInside"
+            android:src="@drawable/top"/> -->
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="未支付"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/list_nopay"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:divider="@android:color/transparent"
+        android:cacheColorHint="@null"
+        android:layout_height="match_parent">
+    </ListView>
+
+    
+
+</RelativeLayout>

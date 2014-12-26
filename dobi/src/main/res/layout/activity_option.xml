@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/beijing_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:onClick="finishActivity"
+            android:src="@drawable/btn_back1" />
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="意见反馈"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editSms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_margin="5dp"
+        android:gravity="left|top"
+        android:textSize="14sp"
+        android:hint="请写下您宝贵意见"
+        android:inputType="textMultiLine"
+        android:minLines="8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/editSms"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="12dp"
+        android:text="400字以内"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/commitOption"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editSms"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:background="#77A8EB"
+        android:text="提交" />
+
+</RelativeLayout>

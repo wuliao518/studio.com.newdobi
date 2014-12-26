@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moreRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/translucent" >
+
+    <FrameLayout
+        android:id="@+id/drawViewFrameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/btnRelative"
+        android:background="@color/translucent" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/btnRelative"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+    <include
+            android:id="@+id/moreScene"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            layout="@layout/control_more_scene"
+            android:background="@color/transparent"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/propListView"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@color/center"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#00000000"
+            android:dividerHeight="5dp"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnRelative"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ECE7E3" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ECE7E3"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btnMain"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:onClick="btnMainOnclick"
+                android:src="@drawable/top" />
+
+            <ImageButton
+                android:id="@+id/btnPhoto"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:onClick="btnPhotoOnclick"
+                android:src="@drawable/photo" />
+
+            <ImageButton
+                android:id="@+id/btnScene"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/changjing" />
+
+            <ImageButton
+                android:id="@+id/btnPropMore"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/qipao" />
+
+            <ImageButton
+                android:id="@+id/btnSave"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:onClick="btnSaveOnclick"
+                android:src="@drawable/save" />
+
+            <ImageButton
+                android:id="@+id/btnShare"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:onClick="btnShareOnclick"
+                android:src="@drawable/share" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    <ImageButton
+        android:id="@+id/sediao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="155dp"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:visibility="gone"
+        android:onClick="btnSediao"
+        android:src="@drawable/mbtnsediao" />
+    <LinearLayout
+        android:id="@+id/ll_sediao"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:background="#ece7e3"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                 <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/liangdu" />
+
+                <SeekBar
+                    android:id="@+id/Saturationseekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="200"
+                    android:maxHeight="5px"
+                    android:minHeight="40px"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/effect_seekbar_style"
+                    android:secondaryProgress="0"
+                    android:thumb="@drawable/mbtnanniu"
+                    android:thumbOffset="20px" >
+                </SeekBar>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/yanseduibidu" />
+                <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+                <SeekBar
+                    android:id="@+id/Brightnessseekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="200"
+                    android:maxHeight="5px"
+                    android:minHeight="40px"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/effect_seekbar_style"
+                    android:secondaryProgress="0"
+                    android:thumb="@drawable/mbtnanniu"
+                    android:thumbOffset="20px" >
+                </SeekBar>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sexiangbaohedu" />
+                <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+                <SeekBar
+                    android:id="@+id/Contrastseekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="127"
+                    android:maxHeight="5px"
+                    android:minHeight="40px"
+                    android:progress="63"
+                    android:progressDrawable="@drawable/effect_seekbar_style"
+                    android:secondaryProgress="0"
+                    android:thumb="@drawable/mbtnanniu"
+                    android:thumbOffset="20px" >
+                </SeekBar>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    
+
+  
+
+    <LinearLayout
+        android:id="@+id/cameraWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#99000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/cameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/more_take" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/photoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/more_select" >
+        </ImageView>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/propDelMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cancelselectprop"
+        android:visibility="gone" />
+
+   
+</RelativeLayout>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE7E3" >
+
+    <RelativeLayout
+        android:id="@+id/topLinear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECE7E3" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ECE7E3"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <!-- 装饰主页 -->
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnMainOnclick"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/top" />
+                <!-- 重拍 -->
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnPhotoOnclick"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/photo" />
+
+                <ImageButton
+                    android:id="@+id/btnSave"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnSaveOnclick"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/save" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnShareOnclick"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/share" />
+
+                <ImageButton
+                    android:id="@+id/btnShare"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnMoreOnclick"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/more" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btnRelative"
+        android:layout_below="@+id/topLinear"
+        android:background="#465789" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRelative"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <HorizontalScrollView
+            android:id="@+id/btnRelative0"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:scrollbars="none"
+            android:background="@color/transparent" >
+
+            <com.dobi.view.MyLinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@color/transparent" >
+
+                <ImageButton
+                    android:id="@+id/btnBrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/clr_normal_two"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/meimao" />
+
+                <ImageButton
+                    android:id="@+id/btnMoustache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/clr_normal_two"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/huzi" />
+
+                <ImageButton
+                    android:id="@+id/btnBlusher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/clr_normal_two"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/saihong" />
+                  <!-- 现代女 -->
+        <ImageButton
+            android:id="@+id/btnModernFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/modern_female_headdress_btn_normal" />
+        <!-- 现代男 -->
+        <ImageButton
+            android:id="@+id/btnModernMale"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/modern_male_headdress_btn_normal" />
+        <!-- 民国女 -->
+        <ImageButton
+            android:id="@+id/btnRepublicFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/republic_of_china_female_headdress_btn_normal" />
+        <!-- 民国男 -->
+
+        <ImageButton
+            android:id="@+id/btnRepublicMale"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/republic_of_china_male_headdress_btn_normal" />
+        <!-- 古代女 -->
+
+        <ImageButton
+            android:id="@+id/btnAncientFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/ancient_times_female_headdress_btn_normal" />
+        <!-- 古代男 -->
+        <ImageButton
+            android:id="@+id/btnAncientMale"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/ancient_times_male_headdress_btn_normal" />
+            </com.dobi.view.MyLinearLayout>
+        </HorizontalScrollView>
+
+        <include
+            android:id="@+id/singleDressing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/control_single_dressing"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/singleScene"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/control_single_scene"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/prop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/control_prop"
+            android:visibility="gone" />
+
+        <com.liu.hz.view.HorizontalListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none"
+            android:listSelector="@null"
+            android:scrollbars="vertical"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ECE7E3" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/btnHZ"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/huazhuang" />
+
+            <ImageButton
+                android:id="@+id/btnPropMore"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/zhuangban" />
+
+            <ImageButton
+                android:id="@+id/btnScene"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/changjing" />
+
+            <ImageButton
+                android:id="@+id/btnProp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/prop" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/sediao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="160dp"
+        android:background="#00000000"
+        android:onClick="btnSediao"
+        android:src="@drawable/mbtnsediao"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_sediao"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ece7e3"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/liangdu" />
+
+                <SeekBar
+                    android:id="@+id/Saturationseekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="200"
+                    android:maxHeight="5px"
+                    android:minHeight="40px"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/effect_seekbar_style"
+                    android:secondaryProgress="0"
+                    android:thumb="@drawable/mbtnanniu"
+                    android:thumbOffset="20px" >
+                </SeekBar>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/yanseduibidu" />
+                <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+                <SeekBar
+                    android:id="@+id/Brightnessseekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="200"
+                    android:maxHeight="5px"
+                    android:minHeight="40px"
+                    android:progress="100"
+                    android:progressDrawable="@drawable/effect_seekbar_style"
+                    android:secondaryProgress="0"
+                    android:thumb="@drawable/mbtnanniu"
+                    android:thumbOffset="20px" >
+                </SeekBar>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sexiangbaohedu" />
+                <!-- 定义一个拖动条，并改变它的滑块外观 -->
+
+                <SeekBar
+                    android:id="@+id/Contrastseekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="127"
+                    android:maxHeight="5px"
+                    android:minHeight="40px"
+                    android:progress="63"
+                    android:progressDrawable="@drawable/effect_seekbar_style"
+                    android:secondaryProgress="0"
+                    android:thumb="@drawable/mbtnanniu"
+                    android:thumbOffset="20px" >
+                </SeekBar>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ItemImage_notice"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_height="180dp"
+        android:paddingTop="12dip"/>
+
+    <TextView
+        android:id="@+id/ItemTitle_notice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"
+        android:layout_below="@id/ItemImage_notice"
+        android:text="11月11日，抢三月话费；赶快行动哇！"
+        android:textSize="20dip"/>
+
+   
+
+</RelativeLayout>

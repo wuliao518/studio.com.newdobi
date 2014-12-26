@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleDressing0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+         <ImageButton
+            android:id="@+id/btnCZ"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scaleType="centerInside"
+            android:background="@color/top"
+            android:onClick="btnCCOnClick"
+            android:src="@drawable/chizha"/>
+         
+        <ImageButton
+            android:id="@+id/btnLB"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scaleType="centerInside"
+            android:background="@color/top"
+            android:onClick="btnLBOnClick"
+            android:src="@drawable/lebu"/>
+        <ImageButton
+            android:id="@+id/btnMD"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scaleType="centerInside"
+            android:background="@color/top"
+            android:onClick="btnGMOnClick"
+            android:src="@drawable/modeng"/>
+        <ImageButton
+            android:id="@+id/btnTX"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scaleType="centerInside"
+            android:background="@color/top"
+            android:onClick="btnXROnClick"
+            android:src="@drawable/tianxia"/>
+        <ImageButton
+            android:id="@+id/btnZH"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:background="@color/top"
+            android:scaleType="centerInside"
+            android:onClick="btnTXOnClick"
+            android:src="@drawable/zongheng"/>
+        <ImageButton
+            android:id="@+id/btnZZ"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:scaleType="centerInside"
+            android:background="@color/top"
+            android:onClick="btnSGOnClick"
+            android:src="@drawable/zuizhong" />
+        <!-- 
+        <Button
+            android:id="@+id/btnGM"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:onClick="btnGMOnClick"
+            android:text="@string/powerful" 
+            android:textSize="@dimen/typeface"/>
+
+        <Button
+            android:id="@+id/btnTX"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:onClick="btnTXOnClick"
+            android:text="@string/enjoyment" 
+            android:textSize="@dimen/typeface"/>
+
+        <Button
+            android:id="@+id/btnXR"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:onClick="btnXROnClick"
+            android:text="@string/modern" 
+            android:textSize="@dimen/typeface"/>
+
+        <Button
+            android:id="@+id/btnCC"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:onClick="btnCCOnClick"
+            android:text="@string/homecoming" 
+            android:textSize="@dimen/typeface"/>
+
+        <Button
+            android:id="@+id/btnSG"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:onClick="btnSGOnClick"
+            android:text="@string/odyssey" 
+            android:textSize="@dimen/typeface"/>
+
+        <Button
+            android:id="@+id/btnLB"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:onClick="btnLBOnClick"
+            android:text="@string/thief" 
+            android:textSize="@dimen/typeface"/>
+             -->
+    </LinearLayout>
+    <!--  <ListView
+        android:id="@+id/sceneListView"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        android:background="@color/center"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#00000000"
+        android:dividerHeight="5dp"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" /> -->
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleDressing0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <com.dobi.view.MyLinearLayout
+        android:id="@+id/btnRelative0"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@color/button_sixty" >
+
+
+        <ImageButton
+            android:id="@+id/btnRX"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/rexue"/>
+
+        <ImageButton
+            android:id="@+id/btnXR"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/rensheng" />
+         <ImageButton
+            android:id="@+id/btnRP"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/republican_clothes_btn_normal"/>
+    </com.dobi.view.MyLinearLayout>
+
+</HorizontalScrollView>

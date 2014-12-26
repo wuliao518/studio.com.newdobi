@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.liu.hz.view.HorizontalListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<!-- From: file:/J:/wuliao/11-13/com.newdobi1/hZ/src/main/res/layout/horizontal_list_activity.xml -->

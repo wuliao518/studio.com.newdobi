@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/beijing_background" >
+
+        <ImageView android:id="@+id/mImageview1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="finishActivity"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_back1" />
+        
+        <!-- <ImageView android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="finishActivity"
+            android:padding="3dp"
+            android:layout_toRightOf="@id/mImageview1"
+            android:scaleType="centerInside"
+            android:src="@drawable/top"/> -->
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="管理收货地址"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:padding="3dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="增加"
+            android:textColor="@color/next_blue"
+            android:textSize="16sp" />
+        
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/list_address"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"></ListView>
+
+</LinearLayout>

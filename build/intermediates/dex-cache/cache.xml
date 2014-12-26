@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_actionbarview.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="e21868e222a03c6473e56be629af1e817878f448">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_actionbarview-7cf4c64b217c2476a45371633c946be5ef55e1bd.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="f7c2a026fdf63240880ed01545c5fd9e948693e9">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3-44913762e8c6e259b81858a1416e796e8173b64f.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="f7e2aac97f1d1c941cfc9f8babaed271ee68d48c">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\umeng_social_sdk-e4411f081e009e0df3f02181f64d104a40fe3a09.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\classes-87489e71fe59ff52057ed987240bb64d06679412.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_UserCenter.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="65f964ed7bd12ab936c349d4e1b861fc3cf3e285">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_UserCenter-308370b28bfb26f0a3a0cd08194222ff53bf13cc.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_ynote.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="f8de8634554f57c0817bd9363502a29664605522">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_ynote-2907e29c670f4486dbc59184d5ee204b168698dd.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_email.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="7252e6a623f663a5a7a9401c614f5e93a5ea3324">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_email-2a4e918797349d73b8c44293a021e6041f28be63.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_facebook_1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="531dcd08893022f4f95078fc8b8f701ae0f05263">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_facebook_1-360813f1f6dee918077d4ee5dbb7fc86b4c60341.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_scrshot.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="19bb87cfac63079fc381bcc0aeb0bd0417c34adc">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_scrshot-d5b8a834ede4400fa067306d02edc2cb1a8fda0b.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_yixin_2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="35ce166c91a627d2abfd375f3ec743bdc790b093">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_yixin_2-2c532d9259e5b232c8ae29a7ead7042090ee8331.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="1d1a215c3acd13ef011b8391cab495f7760c2a1d">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1-3785d8b27dc31573279d0ab350dbe7b8fdc77e5c.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_comment.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="fb08f9aefb9c3d2028c82085c6b0b70aa5bc4526">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_comment-a058c6eb354bf98361288ee4018f9b49e25a3716.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_laiwang_1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="5778375ae0d0aa13d1e8f810116bce0672ad7973">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_laiwang_1-0f6ad39933381a8fc88aaddbdcee81550a868de3.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_pinterest.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="597d473724c6926e5b0462a97365b3457e386f77">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_pinterest-5458b6b6a30f586cb68a3e2aa94400e7bf89d27f.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_linkedin.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="1478ae1629c5c7c945a5e52e369d0e9e7fc24c66">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_linkedin-a711314032d43a249a95c51020749de2b2eeb16a.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_evernote.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="eeac41ad18b702d1579bb6918d074b49404a2e91">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_evernote-140afdb1222cfe547f8603bcb20c1c6676e10c50.jar" />
+    </item>
+    <item
+        jar="H:\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\support-v4-18.0.0-37f2440100d2378c5f41700ad07751b8f0818c0d.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_tencentWB_3.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="de785ce317f80f5a8761202e62d38e10fd7a15c8">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_3-740727492bdc05f86bed0dcf28cbb4f8e19352ff.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_renren_1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="0ca209d760b28d73bbe444888cdd0c20eeaacbc3">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_renren_1-6d5d838cea2a4bdf8e65072e9b6e280a2834bd80.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="a3297cdb252b6829f1fd34a6a7a79c9baf33e26c">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_Sina-5bf4928c1f2de7988f694b9738bb87b3e32e34a1.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\libs\umeng-update-v2.4.2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="ee700e317f574886dc0a236b801f219df6fbd26d">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\umeng-update-v2.4.2-ee6c12bc48e72f168cab7dc62dba22bc626f7838.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_laiwang_2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="b2abae968ace483cf5dc7c1dbe0294f36d0890d0">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_laiwang_2-cab2ef84354f79049b600272d69d53477d78f4de.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_renren_2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="c485c879e98376818d3abdb32abe79240f59603e">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_renren_2-e70367418a3fcc25e8ccdf023c532d84e7a98f87.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\libs\android-viewbadger.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\android-viewbadger-dd279c88d8e3b9474df7a0da4cfac7bbd2da8bb7.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\alipay_lib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="dcdc2420a7d85e6b647ba6fc0b8076cf4b35a848">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\classes-8ec3b8544788373ea8f94e4b78cbe708690e30bd.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_facebook_2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="755cfa2b3e2e63aa16c734d5337905dcf69312ae">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_facebook_2-9ced0024c3464a2385397585b69ee05c5e85705f.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_shake.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="af3254ca5e71a67ca2ef1a5ca2e20ca325e8f468">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_shake-a6e498e2c5f238a4c3cb9d3ed72b189ecf2a2cae.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\hZ\unspecified\libs\com.google.common_1.0.0.201004262004.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="5df0b65e5353be328b355452795bb081eb85b97f">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\com.google.common_1.0.0.201004262004-9eaf3326f5f81b0dd36ed5b2c57bc0ea9486aae3.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_sms.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="9db73613c63e5b518c49f9040fb9140213812a36">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_sms-b1d1b599e5a404e66731dec3af66b427eb8ab23f.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_instagram.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="ec55e00e9a4eb971577add561510e4b87452d1b3">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_instagram-e76f75ec0b0717d934fecff94afbc25696b5f1e5.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_like.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="9b36d474b6803106f5f15e3694bc8f96d34410f5">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_like-11edbd0fabe58103bcee85f6bac45b6d72b12fef.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\hZ\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="4e46234e24ca9f93d4c179d35975debc4e87609f">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\classes-2820c294279188dc115018173bbfa1ac2ae61575.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="124e0c15ac2b0b061ad4e68fc6ac0a32f33e2b33">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\umeng-analytics-v5.2.4-eb4ca00e40dfe06505981e1e67ee15aef85c7502.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_AtFriends.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="0d5863d8af9c89add12872ab22f8fcb116983552">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_AtFriends-1dcec75729f3955194ff991183693265dbf1da0e.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\libs\alipay.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="11b15d9eae562541ea942271b74ee1083b80f0b3">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\alipay-769083233b5d41ef2edc5e6f45ed6cd59e735ddf.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_yixin_1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="8fa68a3bb5ae6231cd4ccaf355d80c6f3725d0ca">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_yixin_1-9c074a9f50af384b5ce3119cbaf16ba219325414.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="73915005d14af2994f235034b9f9832d666a6ec9">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2-f1a5e7e9b7476f4e76c3de4bfddc107c935ddc48.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="0a27490917cb46e24d83ee32265760610d087036">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\classes-d045b8b55aad48bab9da5e09afd0f7e1a2517175.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1-94779d2d22aeecdc017f682d836ff324f447af3e.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_pocket.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="b62205824cf7eede28e6d06db351a8d658abdded">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_pocket-f8407234d364893ce5ce7d934b5f30119bb18a46.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_tencentWB_2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="6f744074067eb201171c9c8ff1ca45ed821a76a8">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_2-0c4ab74d3aaf5f6b799c374a27c34286f330b9b0.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\httpmime-4.1.3-0b01eb480d1fb5b4bb05de4eabf7eda49ecf171f.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\libs\android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-24e6b9ae53339e63d4b118b78c1220dfbd664b40.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\libs\umeng-fb-v4.3.2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="26de25c95d3353d71406e65bb64e4b67fae707e0">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\umeng-fb-v4.3.2-2a7d858079f15dcdb1f265ab6ddcceac0542dfda.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\slidinglibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="791a9e8fe29dcee2dbd9a12db267b42ee1c1180d">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\classes-6de39d954cc04359f7d10c5fc4b738d1ae53b292.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_tencentWB_1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="328c5351cae13f2ab29450d22b6c02d0ac88a855">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_1-64aa2f6718dd8332c877beb3aa2298112efd600a.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\exploded-aar\com.newdobi1\social_sdk_library_project\unspecified\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="28480d3ec52c43a03b390c781e5e29cdea44ad1c">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-40b82d5411bd12b547cebcab08b5010e84487825.jar" />
+    </item>
+    <item
+        jar="J:\wuliao\11-13\com.newdobi1\dobi\libs\com.umeng.message.lib.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="86edfec334e0991f73c33682d063cd263f874c4f">
+        <dex dex="J:\wuliao\11-13\com.newdobi1\dobi\build\intermediates\pre-dexed\debug\com.umeng.message.lib-31ecc51c6e748d8679f77eefed14d02f73b2fd60.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/beijing_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:onClick="finishActivity"
+            android:src="@drawable/btn_back1" />
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="订单确认"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+        <TextView
+        	style="@style/pay_textview"
+            android:text="订单编号"/>
+        <TextView
+            android:id="@+id/order_num"
+            style="@style/pay_textview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/pay_textview"
+            android:text="下单时间" />
+        <TextView
+            android:id="@+id/order_time"
+            style="@style/pay_textview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+        <TextView
+            style="@style/pay_textview"
+            android:text="收货地址"/>
+        <TextView
+            android:id="@+id/order_address"
+            style="@style/pay_textview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+        <TextView
+            style="@style/pay_textview"
+            android:text="包裹数"/>
+        <TextView
+            android:id="@+id/order_count"
+            style="@style/pay_textview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+        <TextView
+            style="@style/pay_textview"
+            android:text="支付宝"/>
+        <TextView
+            android:id="@+id/order_type"
+            style="@style/pay_textview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+        <TextView
+            style="@style/pay_textview"
+            android:text="还需支付"/>
+        <TextView
+            android:id="@+id/order_price"
+            style="@style/pay_textview" />
+    </LinearLayout>
+    
+    <Button
+            android:id="@+id/orderPay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="5dp"
+            android:text="支付"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:scaleType="centerInside"
+            android:background="#77A8EB" />
+    
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

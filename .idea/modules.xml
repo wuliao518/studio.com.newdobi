@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alipay_lib/alipay_lib.iml" filepath="$PROJECT_DIR$/alipay_lib/alipay_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.newdobi1.iml" filepath="$PROJECT_DIR$/com.newdobi1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dobi/dobi.iml" filepath="$PROJECT_DIR$/dobi/dobi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hZ/hZ.iml" filepath="$PROJECT_DIR$/hZ/hZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidinglibrary/slidinglibrary.iml" filepath="$PROJECT_DIR$/slidinglibrary/slidinglibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/social_sdk_library_project/social_sdk_library_project.iml" filepath="$PROJECT_DIR$/social_sdk_library_project/social_sdk_library_project.iml" />
+    </modules>
+  </component>
+</project>
+

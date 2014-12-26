@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/xiangji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#5c81e1"
+        android:layout_marginLeft="4dp"
+   		android:layout_marginRight="4dp"
+        android:background="@drawable/copy_iphone_dialog_top_bk"
+        android:text="相机" />
+    <View 
+        android:layout_marginLeft="4dp"
+   		android:layout_marginRight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3"/>
+    <Button
+        android:id="@+id/xiangce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#5c81e1"
+        android:layout_marginLeft="4dp"
+   		android:layout_marginRight="4dp"
+        android:background="@drawable/copy_iphone_dialog_bottom_bk"
+        android:layout_marginBottom="3dp"
+        android:text="相册" />
+    
+
+    <Button
+        android:id="@+id/selected_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+   		android:layout_marginRight="4dp"
+        android:textColor="#5c81e1"
+        android:background="@drawable/copy_iphone_dialog_bk"
+        android:gravity="center"
+        android:layout_marginBottom="3dp"
+        android:text="取消" />
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#456753">
+
+    <FrameLayout
+        android:id="@+id/drawViewFrameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btnRelative" >
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/LinearBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRelative"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    <Button 
+		        android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+				android:clickable="true"
+				android:text="ONE"/>
+		    <Button 
+		        android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+				android:clickable="true"
+				android:text="TWO"/>
+		    <Button 
+		        android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+				android:clickable="true"
+				android:text="THREE"/>
+		    <Button 
+		        android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+				android:clickable="true"
+				android:text="FOUR"/>
+		</LinearLayout>
+        <HorizontalScrollView
+            android:id="@+id/scrollImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <GridView
+                    android:id="@+id/faceGridView"
+                    android:layout_width="1000dp"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:fadingEdge="none"
+                    android:horizontalSpacing="14dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="10" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/btnRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#893750"
+        android:layout_alignParentBottom="true" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btnHZ"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+				android:clickable="true"
+				android:text="ONE"
+				android:scaleType="centerInside"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:id="@+id/btnPropMore"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="TWO"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/btnScene"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="THREE"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/btnProp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="FOUR"
+                android:scaleType="centerInside"
+                android:clickable="true"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/beijing_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+        <CheckBox
+            android:id="@+id/check_goods"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:button="@drawable/item_cart_selected" />
+
+        <Button
+            android:id="@+id/edit_goods"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:background="@color/pay_red"
+            android:text="编辑" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/goods_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="#f0f0f0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/goods_image"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textSize="17sp"
+                    android:text="3D人偶"/>
+                <TextView
+                    android:id="@+id/goodsSize"
+                    android:gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="尺寸:12cm" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mShow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/goodsPrice"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:paddingLeft="2dp"
+                    android:paddingBottom="4dp"
+                    android:text="￥299" />
+                <TextView
+                    android:id="@+id/goodsNum"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="17sp"
+                    android:text="X1" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mDelete"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="80dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/editNum"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/detai_input_box"
+                    android:gravity="center"
+                    android:inputType="number" 
+                    android:text="1" />
+                <ImageView
+                    android:id="@+id/goods_delete"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/cancleselect" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

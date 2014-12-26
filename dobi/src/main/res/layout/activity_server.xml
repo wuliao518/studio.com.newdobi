@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/beijing_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:onClick="finishActivity"
+            android:src="@drawable/btn_back1" />
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="服务条款"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1、本3d打印人偶采用国外进口材料，属于易碎品，请买方妥善保管。"
+		android:textSize="15sp"
+		android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="2、买方提供标准的正面，左侧，右侧的三张照片（请参照我们示例图），卖方不得将照片在别的地方使用。"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:text="3、买方提交订单的1个工作日内，卖家处理订单；如照片有问题，卖方客服会沟通买方提供照片，直至确认。（如果照片有问题，联系客户流程需要讨论）"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:text="4、订单确认后9个工作日，卖方完成3d建模-打印-发货流程, 包装采用海绵将人偶保护。卖方提供快递号，买方可以依据快递单号查询快递状态。"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:text="5、快递由顺丰寄出，收件时买方请检查，确认无破损后签收；如运输过程中破损，请拒签退回（损失由顺丰承担），并联系客服电话：400-108-6488。"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:text="6、本商品不支持七天退货。\n"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:text="7、如果卖方由于不可抗力，如战争、火灾、洪水、台风、地震和其他不可抗力的原因，不能履行本协议，完成本协议的时间可根据事件发生的时间长短延期进行。"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="8、本条款解释权归上海特逗科技有限公司所有。"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleScene0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent" >
+
+    <com.dobi.view.MyLinearLayout
+        android:id="@+id/btnScene0"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@color/transparent" >
+        <ImageButton
+            android:id="@+id/btnPoker"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/a54_plan_btn_normal"/>
+        <ImageButton
+            android:id="@+id/btnGM"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/gumu"/>
+
+        <ImageButton
+            android:id="@+id/btnYY"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/yunyou"/>
+        <ImageButton
+            android:id="@+id/btnYD"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clr_normal_two"
+            android:scaleType="centerInside"
+            android:src="@drawable/yidong"/>
+    </com.dobi.view.MyLinearLayout>
+
+</HorizontalScrollView>

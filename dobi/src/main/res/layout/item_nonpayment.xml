@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >   
+
+    <LinearLayout
+        android:id="@+id/mLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/goodsImage"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerInside"
+            android:src="@drawable/threed" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/goodsSize"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:text="3D玩偶(12cm)" />
+
+                <TextView
+                    android:id="@+id/goodsPrice"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:layout_height="match_parent"
+                    android:text="299.00x2" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerInside"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:src="@drawable/btn_back_next"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/imgfilter"
+        android:layout_alignParentLeft="true"
+        android:background="#546678" >
+	 	<com.dobi.view.MyMoreImageView
+	 	    android:id="@+id/clipImage"
+	 	    android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	 	    />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/showbottom"
+        android:layout_width="65dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+        <ImageButton
+            android:id="@+id/btnSure"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="btnSureOnclick"
+            android:src="@drawable/yes" />
+        
+        <ImageButton
+            android:id="@+id/btnCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="btnCancelOnclick"
+            android:src="@drawable/no"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgdialog"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/mbtn_back"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/pushxx" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dip"
+        android:paddingTop="20dp" >
+
+        <TextView
+            android:id="@+id/mDialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="好礼大派送"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mDialogText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="新来的亲们，不要错过我们的送话费活动哦！"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:paddingTop="30dp" >
+
+        <LinearLayout
+            android:id="@+id/mLinearLayoutpush"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/pushbackbtn"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/mButtonpush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="详情进入"
+                android:textColor="#ffffff"
+                android:textSize="38px" />
+
+           <!--  <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btnpush" /> -->
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/beijing_background" >
+
+        <ImageView android:id="@+id/mImageview1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="finishActivity"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_back1" />
+        
+        <!-- <ImageView android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="finishActivity"
+            android:padding="3dp"
+            android:layout_toRightOf="@id/mImageview1"
+            android:scaleType="centerInside"
+            android:src="@drawable/top"/> -->
+
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="新增收获地址"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/mImgBtn_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:src="@drawable/yes" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="收货人姓名" />
+
+        <EditText
+            android:id="@+id/consignee"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent"
+            android:hint="收货人"
+            android:inputType="text"
+            android:maxLength="16"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="省（直辖市）" />
+
+        <Button
+            android:id="@+id/btn_province"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="市" />
+
+        <Button
+            android:id="@+id/btn_city"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="地区" />
+
+        <Button
+            android:id="@+id/btn_county"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="详细地址" />
+
+        <EditText
+            android:id="@+id/mEditText_xxdz"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent"
+            android:hint="请输入你的详细地址"
+            android:inputType="text"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="邮编" />
+
+        <EditText
+            android:id="@+id/mEditText_yb"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent"
+            android:hint="请输入你的邮政编码"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="手机号码" />
+
+        <EditText
+            android:id="@+id/mEditText_sjhm"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent"
+            android:hint="请输入你的手机号码"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/beijing_background"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/pay_textview"
+            android:text="电话号码" />
+
+        <EditText
+            android:id="@+id/mEditText_dhhm"
+            style="@style/pay_textview"
+            android:background="@android:color/transparent"
+            android:hint="请输入你的电话号码"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:singleLine="true" />
+    </LinearLayout>
+
+</LinearLayout>

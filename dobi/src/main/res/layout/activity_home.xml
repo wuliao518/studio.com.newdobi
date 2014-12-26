@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/curtain" >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo" />
+	
+    <LinearLayout
+        android:id="@+id/jiangPlay"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_above="@id/logo"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/danran"/>
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="46dp"
+                android:background="@drawable/button_single"
+                android:onClick="ImgBtnSingleOnclick"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/duoren" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="46dp"
+                android:onClick="ImgBtnMoreOnclick"
+                android:background="@drawable/button_more"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/three"
+        android:layout_above="@id/jiangPlay"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/threed" />
+        <ImageButton
+            android:id="@+id/threed"
+            android:layout_width="115dp"
+            android:layout_height="38dp"
+            android:background="@drawable/three_selector"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="left"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/activity_main_logopadding"
+        android:scaleType="centerInside"
+        android:text="设置"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/activity_main_logopadding"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+    <com.dobi.view.CircleImageView
+        android:id="@+id/avator"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/activity_main_logopadding"
+        android:text="登陆"
+        android:src="@drawable/logo"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:border_width="2dp"
+        android:visibility="gone"
+        app:border_color="#000"/>
+
+</RelativeLayout>

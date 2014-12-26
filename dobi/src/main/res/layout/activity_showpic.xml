@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/imgfilter"
+        android:layout_alignParentLeft="true"
+        android:background="#546678">
+	 	<com.dobi.view.MyImageView
+	 	    android:id="@+id/clipImage"
+	 	    android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	 	    />
+       
+    </FrameLayout>
+    <!-- 拍完主页 -->
+
+    <ImageButton
+        android:id="@+id/btnGoMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:onClick="btnGoMainOnclick"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+        android:paddingTop="15dp"
+        android:src="@drawable/top" />
+
+ 
+    <!-- 强中弱按钮 -->
+
+    <LinearLayout
+        android:id="@+id/showbottom"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="btnCancelOnclick"
+            android:src="@drawable/no"/>
+
+        <ImageButton
+            android:id="@+id/btnSure"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="btnSureOnclick"
+            android:src="@drawable/yes" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgfilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/showbottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false" />
+
+</RelativeLayout>

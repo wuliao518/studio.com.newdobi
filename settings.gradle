@@ -1,0 +1,5 @@
+include ':hZ', ':myapplication'
+include ':alipay_lib'
+include ':slidinglibrary'
+include ':social_sdk_library_project'
+include ':dobi'
