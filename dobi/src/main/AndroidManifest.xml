@@ -48,11 +48,7 @@
             android:name="com.dobi.ui.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.dobi.ui.MainActivity"
@@ -129,12 +125,12 @@
             android:label="@string/title_activity_regist_activity02" >
         </activity>
         <activity
-            android:name="com.dobi.ui.RegistActivity03"
+            android:name="com.dobi.ui.OrgActivity"
             android:label="@string/title_activity_regist_activity03" >
-        </activity>
-        <activity
-            android:name="com.dobi.ui.OrderInfoActivity"
-            android:label="@string/title_activity_order_info" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity
             android:name="com.dobi.ui.AccountInfoActivity"
